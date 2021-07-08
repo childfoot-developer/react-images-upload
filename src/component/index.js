@@ -215,7 +215,6 @@ class ReactImageUploadComponent extends React.Component {
     return (
       <div className={"fileUploader " + this.props.className} style={this.props.style}>
         <div className="fileContainer" style={this.props.fileContainerStyle}>
-          {this.renderIcon()}
           {this.renderLabel()}
           <div className="errorsContainer">
             {this.renderErrors()}
